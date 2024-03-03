@@ -2555,11 +2555,45 @@ a {
     border-color: #0cbacf;
     color: #fff;
 }
+.talk {
+    display: flex;
+    align-items: center; /* Aligns the content vertically in the center */
+    justify-content: flex-start;
+    column-gap: 20px; /* Adjust the gap as needed */
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.talk img {
+    width: 90px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.talk h5 {
+    margin: 0; /* Remove default margin from h5 */
+    padding-top: 1rem; /* Add padding to align with the content if needed */
+}
+
+/* Header styling */
+.talk-header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+    border-top: 1px #e3e3e3 dashed;
+    padding-top: 1rem; /* Adjust padding-top, avoid negative values */
+}
 
 /*------------------------------------------------------------------
 [17. Project Pages]
 */
-
+.fa.fa-twitter{
+	font-family:sans-serif;
+}
+.fa.fa-twitter::before{
+	content:"𝕏";
+	font-size:1.2em;
+}
 /* Grid */
 
 .masonry-stamp .caption-over-outer {
